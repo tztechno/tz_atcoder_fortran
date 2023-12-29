@@ -4,7 +4,7 @@
 
 program CheckString
 
-  character(50) :: s
+  character(1000) :: s
   integer :: n
 
   ! Read input from the user
