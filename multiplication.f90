@@ -2,7 +2,7 @@
 ################################
 ################################
 program main
-	implicit none
+    implicit none
     integer::a,b
     read(*,*) a,b
     write(*,*) a*b
