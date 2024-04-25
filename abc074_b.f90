@@ -29,6 +29,24 @@ program solve
     print'(i0)', ans
 end
 #######################################
+program solve
+    implicit none
+    integer(8) :: n, k, ans, i
+    integer(8), allocatable :: x(:)
+    
+    read*, n
+    read*, k
+    allocate(x(n))
+    read*, x
+    
+    ans=0
+    do i=1,n
+        ans=ans+min(x(i),k-x(i))*2
+    end do
+    
+    print'(i0)', ans
+end
+#######################################
 program ss
     implicit none
     integer(4):: N, K, a, i
