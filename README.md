@@ -24,11 +24,14 @@
 ```
 ---
 ```
-
+リスト設定
+integer(kind=8), allocatable :: L(:)
+integer, allocatable :: L(:)
+allocate(L(N+1))
 ```
 ---
 ```
-
+print "(i0)", L(N)
 ```
 ---
 ```
