@@ -1,7 +1,6 @@
 # tz_atcoder_fortran
 
 ### latest
-
 ---
 ```
 
@@ -21,6 +20,25 @@
 ---
 ```
 
+```
+---
+```
+
+```
+---
+```
+write(str_X0, '(I0)') X0
+```
+---
+```
+do i = 1, length
+    M = M + mod(X, 10)
+    X = X / 10
+end do
+```
+---
+```
+if (mod(X0, M) == 0) then
 ```
 ---
 ```
