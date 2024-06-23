@@ -10,9 +10,9 @@ program main
 	integer N, i, ans
 	read(*, *) N
 	do i = 0, 6
-		if(2**i <= N) then
-			ans = 2**i
-		end if
+	    if(2**i <= N) then
+	        ans = 2**i
+	    end if
 	end do
 	write(*, *) ans
 end program main
