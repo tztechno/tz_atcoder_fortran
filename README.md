@@ -23,11 +23,8 @@
 ```
 ---
 ```
-
-```
----
-```
-write(str_X0, '(I0)') X0
+文字列の足し算をする時
+character(:), allocatable :: ans
 ```
 ---
 ```
